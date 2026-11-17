@@ -1,0 +1,12 @@
+# secrets: the file with the Gemini API key never leaves this machine
+.env
+.env.*
+!.env.example
+
+# saved data of this machine (database, encryption key, generated speech)
+data/
+
+# made by tools
+node_modules/
+dist/
+.vercel/

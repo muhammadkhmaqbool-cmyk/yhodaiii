@@ -1,0 +1,7 @@
+# never upload secrets or this machine's data to Vercel
+.env
+.env.*
+!.env.example
+data/
+node_modules/
+dist/
